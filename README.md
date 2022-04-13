@@ -4,7 +4,7 @@ Semantic sense-making, for modern smart buildings. Sponsored by HM Smart Buildin
 
 This repository is designed to give guidance to the design of smart enabled buildings. MSI's/SI's and control sysem vendors should use it to name devices, points and parameters accross all their systems and application developers should use it to identify the mechanism for binding the the data they need.
 
-While there are many emerging models and solutions already well established in the building technology sector, most of them are either overly complicated and fail in their core objectives or do not contain the basic elements of building systems data resulting in a high degree of augmentation from the base model.
+While there are many ontological solutions already well established in the building technology sector, most of them are either overly complicated and fail in their core objectives or do not contain the basic elements of building systems data resulting in a high degree of augmentation from their base model.
 
 This toolset aims to simplify the smart enablement journey. Its made up of three core elements which are;
 
@@ -24,11 +24,11 @@ Each asset shall be named in accordance with the following naming structure:
 For main devices;
 <strong>SystemRef_SystemItem_ItemID</strong>
 
-<ol>
+<ul>
   <li><strong>SystemRef:</strong> shall be a three character string abbreviation for the system which the asset is a part of</li>
   <li><strong>SystemItem:</strong> shall be a three character string abbreviation that describes the asset type</li>
   <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset</li>
-</ol>
+</ul>
 
 For sub-devices which are components of assets;
 <strong>_SubItem</strong> is appended to the associated main asset name
