@@ -36,4 +36,12 @@ For sub-devices which are components of assets;
 <ul>
   <li><strong>SubItem:</strong> shall be a string descriptor that represents a component of the asset. The string shall use camel case if made up of multiple words</li>
 </ul>
+  
+
+<h2> Control Object Naming </h2>
+
+Each asset shall be named in accordance with the following naming structure:
+
+For main devices;
+<strong>SystemRef_SystemItem_ItemID</strong>
 
