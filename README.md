@@ -19,4 +19,4 @@ All of these tools have been built into freely accessible web-apps that do all t
 
 <h2> Asset Naming </h2>
 
-here we go
+Each asset and sub-asset (everything) shall be named in accordance with the following semantic structure. Each thing will be named both physically and virtually using the following structure. 
