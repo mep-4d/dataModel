@@ -29,3 +29,7 @@ For main devices;
   <li><strong>SystemItem:</strong> shall be a three character string abbreviation that describes the asset type</li>
   <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset</li>
 </ol>
+
+For devices which are sub-components of assets;
+<strong>_SubItem</strong> is appended to the associated main asset name
+
