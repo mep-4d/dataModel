@@ -19,13 +19,13 @@ All of these tools have been built into freely accessible web-apps that do all t
 
 <h2> Asset Naming </h2>
 
-Each asset and sub-asset (every-thing) shall be named in accordance with the following naming structure:
+Each asset shall be named in accordance with the following naming structure:
 
 For main devices;
 <strong>SystemRef_SystemItem_ItemID</strong>
 
 <ol>
-  <li><strong>SystemRef</strong> shall be a three character string abbreviation for the system which the asset is a part of</li>
-  <li><strong>SystemItem</strong> shall be a three character string abbreviation that describes the asset type</li>
-  <li><strong>ItemID</strong> shall be a four character unique identifier for the </li>
+  <li><strong>SystemRef:</strong> shall be a three character string abbreviation for the system which the asset is a part of</li>
+  <li><strong>SystemItem:</strong> shall be a three character string abbreviation that describes the asset type</li>
+  <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset</li>
 </ol>
