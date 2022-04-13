@@ -9,12 +9,12 @@ While there are many emerging models and solutions already well established in t
 This toolset aims to simplify the smart enablement journey. Its made up of three core elements which are;
 
 <ol>
-  <li>Asset naming tool that enables the unique identification/naming of every physical object within a building</li>
-  <li>Point naming tool that enables the naming of every physical/virtual control object within a building</li>
-  <li>Data structuring tool that enables us to precisely structure the data from or to the building systems</li>
+  <li><strong>Asset naming tool that enables the unique identification/naming of every physical object within a building</strong></li>
+  <li><strong>Point naming tool that enables the naming of every physical/virtual control object within a building</strong></li>
+  <li><strong>Data structuring tool that enables us to precisely structure the data from or to the building systems</strong></li>
 </ol>
 
 All of these tools have been built into freely accessible web-apps that do all the nitty gritty work for you and links are provided in the relevant sections of this guide. Providing this guide is followed, the smart enablement outcome is a guaranteed success.
   
 
-<h3> dataModel </h3>
+<h2> Asset Naming </h2>
