@@ -30,6 +30,6 @@ For main devices;
   <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset</li>
 </ol>
 
-For devices which are sub-components of assets;
+For sub-devices which are components of assets;
 <strong>_SubItem</strong> is appended to the associated main asset name
 
