@@ -23,3 +23,9 @@ Each asset and sub-asset (every-thing) shall be named in accordance with the fol
 
 For main devices;
 <strong>SystemRef_SystemItem_ItemID</strong>
+
+<ol>
+  <li><strong>SystemRef</strong> shall be a three character string abbreviation for the system which the asset is a part of</li>
+  <li><strong>SystemItem</strong> shall be a three character string abbreviation that describes the asset type</li>
+  <li><strong>ItemID</strong> shall be a four character unique identifier for the </li>
+</ol>
