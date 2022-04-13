@@ -33,3 +33,7 @@ For main devices;
 For sub-devices which are components of assets;
 <strong>_SubItem</strong> is appended to the associated main asset name
 
+<ul>
+  <li><strong>SubItem:</strong> shall be a string descriptor that represents a component of the asset. The string shall use camel case if made up of multiple words</li>
+</ul>
+
