@@ -46,10 +46,12 @@ This example names a component of the main asset --> HTG_PMP_001A_differentialPr
 
 Each control point shall be named in accordance with the following naming structure:
 
-<strong>SubItem_PointType</strong>
+<strong>SubItem_Variable_PointType</strong>
 
 <ul>
   <li><strong>SubItem:</strong> shall be the name of the sub-device which the point is a child component of i.e. htgValve</li>
-  <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point i.e. position</li>
+  <li><strong>Variable:</strong> shall be a descriptor that represents the physical,measured or controlled variable i.e. position</li>
+  <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point and its use i.e. control</li>
 </ul>
 
+This example names a control point --> htgValve_position_control
