@@ -30,14 +30,16 @@ For main devices;
   <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset i.e. 001A</li>
 </ul>
 
-This example names a heating pump HTG_PMP_001A
+This example names a main asset (heating pump) --> HTG_PMP_001A
 
 For sub-devices which are components of assets;
 <strong>_SubItem</strong> is appended to the associated main asset name
 
 <ul>
-  <li><strong>SubItem:</strong> shall be a string descriptor that represents a component of the asset. The string shall use camel case if made up of a maximum three words (a,b,c) where (a) is a context string, (b) is a variable descriptor, (c) is the component descriptor</li>
+  <li><strong>SubItem:</strong> shall be a string descriptor that represents a component of the asset. The string shall use camel case and be made up of a maximum three words (a,b,c) where (a) is a context string i.e. differential, (b) is a variable descriptor i.e. Pressure, (c) is the component descriptor i.e. Switch</li>
 </ul>
+
+This example names a component of th 
   
 
 <h2> Control Object Naming </h2>
