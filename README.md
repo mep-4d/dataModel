@@ -44,8 +44,12 @@ This example names a component of the main asset --> HTG_PMP_001A_differentialPr
 
 <h2> Control Object Naming </h2>
 
-Each asset shall be named in accordance with the following naming structure:
+Each control point shall be named in accordance with the following naming structure:
 
-For main devices;
-<strong>SystemRef_SystemItem_ItemID</strong>
+<strong>SubItem_PointType</strong>
+
+<ul>
+  <li><strong>SubItem:</strong> shall be the name of the sub-device which the point is a child component of i.e. htgValve</li>
+  <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point i.e. position  PMP</li>
+</ul>
 
