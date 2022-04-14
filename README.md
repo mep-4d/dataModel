@@ -50,6 +50,6 @@ Each control point shall be named in accordance with the following naming struct
 
 <ul>
   <li><strong>SubItem:</strong> shall be the name of the sub-device which the point is a child component of i.e. htgValve</li>
-  <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point i.e. position  PMP</li>
+  <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point i.e. position</li>
 </ul>
 
