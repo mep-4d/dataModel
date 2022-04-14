@@ -25,10 +25,12 @@ For main devices;
 <strong>SystemRef_SystemItem_ItemID</strong>
 
 <ul>
-  <li><strong>SystemRef:</strong> shall be a three character string abbreviation for the system which the asset is a part of</li>
-  <li><strong>SystemItem:</strong> shall be a three character string abbreviation that describes the asset type</li>
-  <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset</li>
+  <li><strong>SystemRef:</strong> shall be a three character string abbreviation for the system which the asset is a part of i.e. HTG</li>
+  <li><strong>SystemItem:</strong> shall be a three character string abbreviation that describes the asset type i.e. PMP</li>
+  <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset i.e. 001A</li>
 </ul>
+
+This example names a heating pump HTG_PMP_001A
 
 For sub-devices which are components of assets;
 <strong>_SubItem</strong> is appended to the associated main asset name
