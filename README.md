@@ -67,3 +67,5 @@ Each control point that is part of a sub-device shall be named in accordance wit
 </ul>
 
 This example names a control point --> htgValve_position_control
+
+In this example the main device could be a fan coil unit with example name MEP_FCU_1001, and the control point which is a child object of the main device would therefore have the fully qualified name of MEP_FCU_1001_htgValve_position_control
