@@ -46,7 +46,13 @@ This example names a component of the main asset --> HTG_PMP_001A_diffPressSwitc
 
 Each control point that is a associated with a main device shall be named in accordance with the following naming structure:
 
-<strong>main asset name(as per previous section)__Variable_PointType</strong>
+<strong>main asset name_Variable_PointType</strong>
+
+<ul>
+  <li><strong>main asset name:</strong> shall be the device name as per the previous section i.e. HTG_PMP_001A</li>
+  <li><strong>Variable:</strong> shall be a descriptor that represents the physical, measured or controlled dicrete or continuous variable i.e. fault</li>
+  <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point and its use i.e. status</li>
+</ul>
 
 This example names a control point --> HTG_PMP_001A_fault_status
 
@@ -56,7 +62,7 @@ Each control point that is part of a sub-device shall be named in accordance wit
 
 <ul>
   <li><strong>SubItem:</strong> shall be the name of the sub-device which the point is a child component of i.e. htgValve</li>
-  <li><strong>Variable:</strong> shall be a descriptor that represents the physical,measured or controlled variable i.e. position</li>
+  <li><strong>Variable:</strong> shall be a descriptor that represents the physical, measured or controlled variable i.e. position</li>
   <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point and its use i.e. control</li>
 </ul>
 
