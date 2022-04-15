@@ -39,7 +39,7 @@ For sub-devices which are components of assets;
   <li><strong>SubItem:</strong> shall be a string descriptor that represents a component of the asset. The string shall use camel case and be made up of a maximum three words (a,b,c) where (a) is a context string i.e. differential, (b) is a variable descriptor i.e. Pressure, (c) is the component descriptor i.e. Switch</li>
 </ul>
 
-This example names a component of the main asset --> HTG_PMP_001A_differentialPressureSwitch
+This example names a component of the main asset --> HTG_PMP_001A_diffPressSwitch
   
 
 <h2> Control Object Naming </h2>
