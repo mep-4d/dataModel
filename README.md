@@ -44,11 +44,11 @@ This example names a component of the main asset --> HTG_PMP_001A_differentialPr
 
 <h2> Control Object Naming </h2>
 
-Each control point that is part of a main device shall be named in accordance with the following naming structure:
+Each control point that is a associated with a main device shall be named in accordance with the following naming structure:
 
-<strong>main asset name_PointType</strong>
+<strong>main asset name(as per previous section)__Variable_PointType</strong>
 
-This example names a control point --> htgValve_position_control
+This example names a control point --> HTG_PMP_001A_fault_status
 
 Each control point that is part of a sub-device shall be named in accordance with the following naming structure:
 
