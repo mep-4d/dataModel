@@ -41,7 +41,7 @@ For sub-devices which are components of assets;
 
 This example names a component of the main asset --> HTG_PMP_001A_diffPressSwitch
 
-To make the above asset names truly global <strong>BuildingRef_</strong> is prepended to the asset name. BuildingRef is a five character string that uniquely identifies the building i.e. 100LS
+To make the above asset names truly global <strong>BuildingRef_</strong> is prepended to the asset name where required. BuildingRef is a five character string that uniquely identifies the building i.e. 100LS, so the above asset would become globally identifiable as 100LS_HTG_PMP_001A
   
 
 <h2> Control Object Naming </h2>
