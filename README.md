@@ -75,7 +75,7 @@ In this example the main device could be a fan coil unit with example name MEP_F
 
 <h2> Surfacing Data </h2>
 
-All data surfaced:
+All data surfaced will be JSON objects over MQTT. An MQTT broker will be provided either internal or external to the building network for third party data access. Data will be published from systems to the broker allowing data read, and data will be subscribed to by systems via the broker allowing data write. MQTT topics provide 
 
 For main devices;
 <strong>SystemRef_SystemItem_ItemID</strong>
