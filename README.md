@@ -43,7 +43,7 @@ This example names a component of the main asset --> HTG_PMP_001A_diffPressSwitc
 
 To make the above asset names truly global <strong>BuildingRef_</strong> is prepended to the asset name where required. BuildingRef is a five character string that uniquely identifies the building i.e. 100LS, so the above asset would become globally identifiable as 100LS_HTG_PMP_001A
 
-<a href="https://mep-4d.github.io/index.html">HERE IS A TOOL</a>
+<a href="https://mep-4d.github.io/naming.html">HERE IS A TOOL</a>
 
 <h2> Control Object Naming </h2>
 
