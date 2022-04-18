@@ -25,12 +25,12 @@ For main devices;
 <strong>SystemRef_SystemItem_ItemID</strong>
 
 <ul>
-  <li><strong>SystemRef:</strong> shall be a three character string abbreviation for the system which the asset is a part of i.e. HTG</li>
-  <li><strong>SystemItem:</strong> shall be a three character string abbreviation that describes the asset type i.e. PMP</li>
-  <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset i.e. 001A</li>
+  <li><strong>SystemRef:</strong> shall be a three character string abbreviation for the system which the asset is a part of i.e. htg (heating)</li>
+  <li><strong>SystemItem:</strong> shall be a three character string abbreviation that describes the asset type i.e. pmp (pump)</li>
+  <li><strong>ItemID:</strong> shall be a four character unique identifier for the asset i.e. 001a</li>
 </ul>
 
-This example names a main asset (heating pump) --> HTG_PMP_001A
+This example names a main asset (heating pump) --> htg_pmp_001a
 
 For sub-devices which are components of assets;
 <strong>_SubItem</strong> is appended to the associated main asset name
@@ -39,11 +39,11 @@ For sub-devices which are components of assets;
   <li><strong>SubItem:</strong> shall be a string descriptor that represents a component of the asset. The string shall use camel case and be made up of a maximum three words (a,b,c) where (a) is a context string i.e. differential, (b) is a variable descriptor i.e. Pressure, (c) is the component descriptor i.e. Switch</li>
 </ul>
 
-This example names a component of the main asset --> HTG_PMP_001A_diffPressSwitch
+This example names a component of the main asset --> htg_pmp_001a_diffPressSwitch
 
-To make the above asset names truly global <strong>BuildingRef_</strong> is prepended to the asset name where required. BuildingRef is a five character string that uniquely identifies the building i.e. 100LS, so the above asset would become globally identifiable as 100LS_HTG_PMP_001A
+To make the above asset names truly global <strong>BuildingRef_</strong> is prepended to the asset name where required. BuildingRef is a five character string that uniquely identifies the building i.e. 100ls, so the above asset would become globally identifiable as 100ls_htg_pmp_001a
 
-<a href="https://mep-4d.github.io/naming.html">HERE IS A TOOL</a>
+<a href="https://mep-4d.github.io/naming.html">HERE IS A NAMING TOOL</a>
 
 <h2> Control Object Naming </h2>
 
