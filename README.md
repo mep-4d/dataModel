@@ -82,4 +82,6 @@ For each published data object from site to the broker, the topic string is appe
 
 For each subscribed data object from the broker to site, the topic string is appended with <strong>_south</strong>
 
+For meta data like objects that are handled differently, the topic string is appended with <strong>_east</strong>
+
 
