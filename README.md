@@ -52,12 +52,12 @@ Each control point that is a associated with a main device shall be named in acc
 <strong>main asset name_Variable_PointType</strong>
 
 <ul>
-  <li><strong>main asset name:</strong> shall be the device name as per the previous section i.e. HTG_PMP_001A</li>
+  <li><strong>main asset name:</strong> shall be the device name as per the previous section i.e. htg_pmp_001a</li>
   <li><strong>Variable:</strong> shall be a descriptor that represents the physical, measured or controlled dicrete or continuous variable i.e. fault</li>
   <li><strong>PointType:</strong> shall be a descriptor that represents the type of control point and its use i.e. status</li>
 </ul>
 
-This example names a control point --> HTG_PMP_001A_fault_status
+This example names a control point --> htg_pmp_001a_fault_status
 
 Each control point that is part of a sub-device shall be named in accordance with the following naming structure:
 
@@ -71,12 +71,15 @@ Each control point that is part of a sub-device shall be named in accordance wit
 
 This example names a control point --> htgValve_position_control
 
-In this example the main device could be a fan coil unit with example name MEP_FCU_1001, and the control point which is a child object of the main device would therefore have the fully qualified name of MEP_FCU_1001_htgValve_position_control
+In this example the main device could be a fan coil unit with example name MEP_FCU_1001, and the control point which is a child object of the main device would therefore have the fully qualified name of mep_fcu_1001_htgValve_position_control
   
 
 <h2> Surfacing Data </h2>
 
-All building data will be encapsulated within JSON objects and transported over MQTT. An MQTT broker will be provided either internal or external to the building network for third party data access. Data will be published from systems to the broker allowing third party data read, and data will be subscribed to by systems via the broker allowing third party data write. MQTT topics provide 
+All building data will be encapsulated within JSON objects and transported over MQTT. An MQTT broker will be provided either internal or external to the building network for third party data access. Data will be published from systems to the broker allowing third party data read, and data will be subscribed to by systems via the broker allowing third party data write. MQTT topics provide differentialtion between systems, devices and data direction.
 
-For main devices;
-<strong>SystemRef_SystemItem_ItemID</strong>
+For each published data object from site to the broker, the topic string is appended with </strong>_north</strong>
+
+For each subscribed data object from broker to site, the topic string is appended with </strong>_south</strong>
+
+
