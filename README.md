@@ -78,10 +78,10 @@ In this example the main device could be a fan coil unit with example name mep_f
 
 All building data will be encapsulated within JSON objects and transported over MQTT. An MQTT broker will be provided either internal or external to the building network for third party data access. Data will be published from systems to the broker allowing third party data read, and data will be subscribed to by systems via the broker allowing third party data write. MQTT topics provide differentialtion between systems, devices and data direction.
 
-For each published data object from site to the broker, the topic string is appended with <strong>_north</strong>
+For each published data object from site to the broker, the topic string is appended with **_north""
 
-For each subscribed data object from the broker to site, the topic string is appended with <strong>_south</strong>
+For each subscribed data object from the broker to site, the topic string is appended with **_south**
 
-For meta data like objects that are handled differently, the topic string is appended with <strong>_east</strong>
+For meta data like objects that are handled differently, the topic string is appended with **_east**
 
 
