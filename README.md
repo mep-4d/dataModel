@@ -1,6 +1,6 @@
 <h1> Building Data Model </h1>
 
-Semantic sense-making, for modern smart buildings. Sponsored by HM Smart Buildings!
+Semantic sense-making, for modern smart buildings!
 
 This repository is designed to give guidance to the design of smart enabled buildings. MSI's/SI's and control sysem vendors should use it to name devices, points and parameters accross all their systems and application developers should use it to identify the mechanism for binding the the data they need.
 
